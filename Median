@@ -1,0 +1,21 @@
+# create a data frame containing the intervals and frequencies
+data <- data.frame(interval = c("1-5", "5-15", "15-20", "20-50", "50-80", "80-110"),
+                   frequency = c(200, 450, 300, 1500, 700, 44))
+
+# view the data frame
+data
+# compute the cumulative frequency
+data$cumulative_frequency <- cumsum(data$frequency)
+
+# find the interval that contains the median value
+median_interval <- data$interval[min(which(data$cumulative_frequency >= sum(data$frequency)/2))]
+
+# extract the lower and upper bounds of the median interval
+lower_bound <- as.numeric(strsplit(median_interval, "-")[[1]][1])
+upper_bound <- as.numeric(strsplit(median_interval, "-")[[1]][2])
+
+# compute the approximate median
+median <- (lower_bound + upper_bound)/2
+
+# print the approximate median
+median
