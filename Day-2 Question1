@@ -1,0 +1,11 @@
+age=c("5-6","7-8","9-10")
+A=c(18,2,20)
+B=c(22,28,10)
+C=c(20,40,40)
+photo=data.frame(age,A,B,C)
+photo
+cov(photo$B,photo$C)
+cor(photo$B,photo$C)
+photo1=data.frame(A,B,C)
+cor(photo1)  
+cov(photo1)
