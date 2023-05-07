@@ -1,0 +1,6 @@
+head(mtcars)
+mt1=mtcars$cyl
+mt2=mtcars$gear
+relation=lm(mt1~mt2)
+relation
+plot(mt1,mt2,col="orange",main="cyl and gear recurssion",abline(lm(mt1~mt2)),cex=1,pch=15,xlab="cyl_values",ylab="gear_values")
