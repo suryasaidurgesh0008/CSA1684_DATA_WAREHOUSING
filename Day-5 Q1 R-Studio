@@ -1,0 +1,12 @@
+AvgSpeed<-c(78,81,82,74,83,82,77)
+Totaltime<-c(39,37,36,42,35,36,40)
+Totaltime
+AvgSpeed
+Standard_Deviation=sd(AvgSpeed)
+Standard_Deviation1=sd(Totaltime)
+Standard_Deviation
+Standard_Deviation1
+Varience=var(AvgSpeed)
+Varience1=var(Totaltime)
+Varience
+Varience1
