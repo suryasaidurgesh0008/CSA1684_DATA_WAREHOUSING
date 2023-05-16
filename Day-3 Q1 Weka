@@ -1,0 +1,12 @@
+@relation Surya1
+@attribute hotdogs {true,flase}
+@attribute bun {true,flase}
+@attribute ketchup {true,flase}
+@attribute coke {true,flase}
+@attribute chips {true,flase}
+@data
+true,true,true,flase,flase
+true,true,flase,flase,flase
+true,flase,flase,true,true
+flase,flase,flase,true,true
+flase,flase,true,flase,true
