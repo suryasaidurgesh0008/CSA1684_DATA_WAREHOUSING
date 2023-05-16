@@ -1,0 +1,12 @@
+@relation Value
+@attribute I1 {true,flase}
+@attribute I2 {true,flase}
+@attribute I3 {true,flase}
+@attribute I4 {true,flase}
+@attribute I5 {true,flase}
+@data
+true,true,true,flase,flase
+true,true,flase,flase,flase
+true,flase,flase,true,true
+flase,flase,flase,true,true
+flase,flase,true,flase,true
