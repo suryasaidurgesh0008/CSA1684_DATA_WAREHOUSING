@@ -1,0 +1,12 @@
+@relation Television
+@attribute SONY {true,flase}
+@attribute BPL {true,flase}
+@attribute LG {true,flase}
+@attribute SAMSUNG {true,flase}
+@attribute ONIDA {true,flase}
+@data
+true,true,true,flase,flase
+true,true,flase,flase,flase
+true,flase,flase,true,true
+flase,flase,flase,true,true
+flase,flase,true,flase,true
